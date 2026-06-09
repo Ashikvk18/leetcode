@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Ashikvk18/leetcode/tree/master/0001-two-sum) |
+| [0036-valid-sudoku](https://github.com/Ashikvk18/leetcode/tree/master/0036-valid-sudoku) |
 | [0088-merge-sorted-array](https://github.com/Ashikvk18/leetcode/tree/master/0088-merge-sorted-array) |
 | [0217-contains-duplicate](https://github.com/Ashikvk18/leetcode/tree/master/0217-contains-duplicate) |
 | [0485-max-consecutive-ones](https://github.com/Ashikvk18/leetcode/tree/master/0485-max-consecutive-ones) |
@@ -16,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Ashikvk18/leetcode/tree/master/0001-two-sum) |
+| [0036-valid-sudoku](https://github.com/Ashikvk18/leetcode/tree/master/0036-valid-sudoku) |
 | [0217-contains-duplicate](https://github.com/Ashikvk18/leetcode/tree/master/0217-contains-duplicate) |
 ## Sliding Window
 |  |
@@ -57,4 +59,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0713-subarray-product-less-than-k](https://github.com/Ashikvk18/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/Ashikvk18/leetcode/tree/master/1004-max-consecutive-ones-iii) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/Ashikvk18/leetcode/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
