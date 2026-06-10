@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Ashikvk18/leetcode/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/Ashikvk18/leetcode/tree/master/0036-valid-sudoku) |
 | [0217-contains-duplicate](https://github.com/Ashikvk18/leetcode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Ashikvk18/leetcode/tree/master/0242-valid-anagram) |
 ## Sliding Window
 |  |
 | ------- |
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Ashikvk18/leetcode/tree/master/0088-merge-sorted-array) |
 | [0217-contains-duplicate](https://github.com/Ashikvk18/leetcode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Ashikvk18/leetcode/tree/master/0242-valid-anagram) |
 | [0977-squares-of-a-sorted-array](https://github.com/Ashikvk18/leetcode/tree/master/0977-squares-of-a-sorted-array) |
 ## Two Pointers
 |  |
@@ -43,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/Ashikvk18/leetcode/tree/master/0125-valid-palindrome) |
+| [0242-valid-anagram](https://github.com/Ashikvk18/leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Ashikvk18/leetcode/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/Ashikvk18/leetcode/tree/master/0392-is-subsequence) |
 ## Dynamic Programming
