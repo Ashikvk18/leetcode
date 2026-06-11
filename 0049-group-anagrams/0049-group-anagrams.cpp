@@ -10,9 +10,9 @@ public:
         map[s].push_back(x);
     }
     vector<vector<string>> vector;
-    for(auto x : map)
+    for(auto y : map)
     {
-        vector.push_back(x.second);
+        vector.push_back(y.second);
     }
     return vector;
     }
