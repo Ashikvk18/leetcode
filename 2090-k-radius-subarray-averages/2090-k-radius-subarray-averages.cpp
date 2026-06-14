@@ -16,8 +16,7 @@ public:
         ans[k]=windowsum/window;
         for(int i = window; i < nums.size(); i++){
             windowsum = windowsum + nums[i] - nums[i-window];
-            ans[k+1]=windowsum/window;
-            k++;
+            ans[i-k]=windowsum/window;
         }
         return ans;
     }
