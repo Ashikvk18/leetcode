@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/Ashikvk18/leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1413-minimum-value-to-get-positive-step-by-step-sum](https://github.com/Ashikvk18/leetcode/tree/master/1413-minimum-value-to-get-positive-step-by-step-sum) |
 | [1480-running-sum-of-1d-array](https://github.com/Ashikvk18/leetcode/tree/master/1480-running-sum-of-1d-array) |
+| [2090-k-radius-subarray-averages](https://github.com/Ashikvk18/leetcode/tree/master/2090-k-radius-subarray-averages) |
 | [2270-number-of-ways-to-split-array](https://github.com/Ashikvk18/leetcode/tree/master/2270-number-of-ways-to-split-array) |
 ## Hash Table
 |  |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/Ashikvk18/leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0713-subarray-product-less-than-k](https://github.com/Ashikvk18/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/Ashikvk18/leetcode/tree/master/1004-max-consecutive-ones-iii) |
+| [2090-k-radius-subarray-averages](https://github.com/Ashikvk18/leetcode/tree/master/2090-k-radius-subarray-averages) |
 ## Sorting
 |  |
 | ------- |
