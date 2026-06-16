@@ -7,13 +7,13 @@ public:
                 while(j<s.size()&& s[j]!=' '){
                     j++;
                 }
-                reverse(s,i,j-1);
+                r(s,i,j-1);
                 i=j;
             }
         }
         return s;
     }
-    void reverse(string& s, int i, int j){
+    void r(string& s, int i, int j){
         while(i<j){
             char temp=s[i];
             s[i]=s[j];
