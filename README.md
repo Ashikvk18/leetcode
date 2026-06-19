@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/Ashikvk18/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/Ashikvk18/leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Ashikvk18/leetcode/tree/master/0219-contains-duplicate-ii) |
+| [0283-move-zeroes](https://github.com/Ashikvk18/leetcode/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/Ashikvk18/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0485-max-consecutive-ones](https://github.com/Ashikvk18/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0643-maximum-average-subarray-i](https://github.com/Ashikvk18/leetcode/tree/master/0643-maximum-average-subarray-i) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Ashikvk18/leetcode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/Ashikvk18/leetcode/tree/master/0125-valid-palindrome) |
+| [0283-move-zeroes](https://github.com/Ashikvk18/leetcode/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/Ashikvk18/leetcode/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/Ashikvk18/leetcode/tree/master/0392-is-subsequence) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/Ashikvk18/leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
