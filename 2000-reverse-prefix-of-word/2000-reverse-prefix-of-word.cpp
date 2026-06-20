@@ -6,7 +6,7 @@ public:
         while(j<word.size() && word[j]!=ch){
             j++;
         }
-        if(word[j]!=ch){
+        if(j==word.size()){
             return word;
         }
         else{
