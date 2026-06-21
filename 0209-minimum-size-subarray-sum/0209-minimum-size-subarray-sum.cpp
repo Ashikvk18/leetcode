@@ -1,11 +1,13 @@
 class Solution {
 public:
-    int minSubArrayLen(int target, vector<int>& nums) {
+    int minSubArrayLen(int target, vector<int>& nums) 
+    {
        int right = 0;
        int left = 0;
        int curr = 0;
        int ans = INT_MAX;
-       for(;right<nums.size();right++){
+       for(;right<nums.size();right++)
+       {
         curr += nums[right];
         while(curr>=target)
         {
