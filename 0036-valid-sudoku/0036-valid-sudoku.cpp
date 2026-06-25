@@ -7,7 +7,8 @@ public:
                 char ch = board[i][j];
                 int x = (i/3)*3 + (j/3);
                 if(ch != '.'){
-                    if(r[i].contains(ch)||c[j].contains(ch)||b[x].contains(ch)){
+                    if(r[i].contains(ch)||c[j].contains(ch)||b[x].contains(ch))
+                    {
                         return false;
                     }
                     else{
