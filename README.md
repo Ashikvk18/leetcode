@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-running-sum-of-1d-array](https://github.com/Ashikvk18/leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [1732-find-the-highest-altitude](https://github.com/Ashikvk18/leetcode/tree/master/1732-find-the-highest-altitude) |
 | [2090-k-radius-subarray-averages](https://github.com/Ashikvk18/leetcode/tree/master/2090-k-radius-subarray-averages) |
+| [2248-intersection-of-multiple-arrays](https://github.com/Ashikvk18/leetcode/tree/master/2248-intersection-of-multiple-arrays) |
 | [2270-number-of-ways-to-split-array](https://github.com/Ashikvk18/leetcode/tree/master/2270-number-of-ways-to-split-array) |
 | [2540-minimum-common-value](https://github.com/Ashikvk18/leetcode/tree/master/2540-minimum-common-value) |
 ## Hash Table
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Ashikvk18/leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Ashikvk18/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/Ashikvk18/leetcode/tree/master/1832-check-if-the-sentence-is-pangram) |
+| [2248-intersection-of-multiple-arrays](https://github.com/Ashikvk18/leetcode/tree/master/2248-intersection-of-multiple-arrays) |
 | [2351-first-letter-to-appear-twice](https://github.com/Ashikvk18/leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [2540-minimum-common-value](https://github.com/Ashikvk18/leetcode/tree/master/2540-minimum-common-value) |
 ## Sliding Window
@@ -64,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Ashikvk18/leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Ashikvk18/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0977-squares-of-a-sorted-array](https://github.com/Ashikvk18/leetcode/tree/master/0977-squares-of-a-sorted-array) |
+| [2248-intersection-of-multiple-arrays](https://github.com/Ashikvk18/leetcode/tree/master/2248-intersection-of-multiple-arrays) |
 ## Two Pointers
 |  |
 | ------- |
@@ -138,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Ashikvk18/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [2248-intersection-of-multiple-arrays](https://github.com/Ashikvk18/leetcode/tree/master/2248-intersection-of-multiple-arrays) |
 | [2351-first-letter-to-appear-twice](https://github.com/Ashikvk18/leetcode/tree/master/2351-first-letter-to-appear-twice) |
 ## Quickselect
 |  |
