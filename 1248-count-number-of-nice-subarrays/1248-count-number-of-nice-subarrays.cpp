@@ -5,7 +5,7 @@ public:
         int ans = 0;
         int curr = 0;
         hmap[0]=1;
-        for( int num : nums){
+        for( auto num : nums){
             curr +=num % 2;
             ans+=hmap[curr-k];
             hmap[curr]++;
