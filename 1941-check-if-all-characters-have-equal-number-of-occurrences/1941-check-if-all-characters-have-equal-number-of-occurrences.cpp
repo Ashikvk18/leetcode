@@ -6,8 +6,8 @@ public:
         for(auto x : s){
             hmap[x]++;
         }
-        for(auto y : hmap){
-            ans.insert(y.second);
+        for(auto x : hmap){
+            ans.insert(x.second);
         }
         return ans.size() == 1;
     }
