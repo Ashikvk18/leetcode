@@ -1,9 +1,12 @@
-class Solution {
+class Solution 
+{
 public:
-    bool isValidSudoku(vector<vector<char>>& board) {
+    bool isValidSudoku(vector<vector<char>>& board)
+     {
         vector<set<char>> r(9), c(9), b(9);
         for(auto i{0uz}; i < 9; i++){
-            for(auto j{0uz}; j < 9; j++){
+            for(auto j{0uz}; j < 9; j++)
+            {
                 char ch = board[i][j];
                 int x = (i/3)*3 + (j/3);
                 if(ch != '.'){
