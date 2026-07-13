@@ -8,8 +8,8 @@ public:
         for(;r<nums.size();r++){
             curr += nums[r];
             while(curr>=target){
-                curr = curr - nums[l];
                 ans = min(ans,r-l+1);
+                curr = curr - nums[l];
                 l++;
             }
         }
