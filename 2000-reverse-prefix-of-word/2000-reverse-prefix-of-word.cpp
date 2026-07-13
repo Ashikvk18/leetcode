@@ -8,14 +8,14 @@ public:
         }
         if(j == word.size()){
             return word;
-        }
+        }else{
         while(i<j){
             char temp = word[i];
             word[i] = word[j];
             word[j] = temp;
             i++;
             j--;
-        }
+        }}
         return word;
     }
 };
