@@ -11,7 +11,7 @@ public:
                 cost-=abs(s[l]-t[l]);
                 l++;
             }
-            cost = max(ans, r-l+1);
+            ans = max(ans, r-l+1);
         }
         return ans;
     }
