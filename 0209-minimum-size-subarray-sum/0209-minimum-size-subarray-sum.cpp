@@ -9,7 +9,7 @@ public:
         int ans = INT_MAX;
         for(;r<nums.size();r++)
         {
-            curr = curr + nums[r];
+            curr += nums[r];
             while(curr>=target)
             {
                 ans = min(ans,r-l+1);
