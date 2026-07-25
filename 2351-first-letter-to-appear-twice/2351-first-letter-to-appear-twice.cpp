@@ -2,12 +2,12 @@ class Solution {
 public:
     char repeatedCharacter(string s) {
         unordered_set<char> hset;
-        for(auto& c : s){
-            if(hset.contains(c)){
-                return c;
+        for(int i = 0; i < s.size(); i++){
+            if(hset.contains(s[i])){
+                return s[i];
             }
             else{
-                hset.insert(c);
+                hset.insert(s[i]);
             }
         }
         return ' ';
