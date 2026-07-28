@@ -13,6 +13,7 @@ public:
                 ans.push_back(x.first);
             }
         }
-        return sort(ans.begin(), ans.end());
+        sort(ans.begin(), ans.end());
+        return ans;
     }
 };
