@@ -1,19 +1,18 @@
 class Solution {
 public:
     vector<int> intersection(vector<vector<int>>& nums) {
-        unordered_map<int,int> hmap;
-        vector<int>ans;
-        for(vector<int>arr : nums){
-            for(auto & x : arr){
-                hmap[x]++;
+        vector<int> ans;
+        unordered_map<int,int>hmap;
+        for(auto x : nums){
+            for(auto y : x){
+                hmap[y]++;
             }
         }
-        for(auto y : hmap){
-            if(y.second == nums.size()){
-                ans.push_back(y.first);
+        for(auto x : hmap){
+            if(x.second == nums.size()){
+                ans.push_back(x);
             }
         }
-        sort(ans.begin(),ans.end());
-        return ans;
+        return sort(ans.begin(), ans.end());
     }
 };
