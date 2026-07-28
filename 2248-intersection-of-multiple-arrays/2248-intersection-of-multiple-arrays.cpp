@@ -10,7 +10,7 @@ public:
         }
         for(auto x : hmap){
             if(x.second == nums.size()){
-                ans.push_back(x);
+                ans.push_back(x.first);
             }
         }
         return sort(ans.begin(), ans.end());
