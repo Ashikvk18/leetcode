@@ -7,8 +7,8 @@ public:
         int ans=0;
         for(auto x : nums){
             curr += x;
-            hmap[curr]++;
             ans += hmap[curr-k];
+            hmap[curr]++;
             }
             return ans;
     }
