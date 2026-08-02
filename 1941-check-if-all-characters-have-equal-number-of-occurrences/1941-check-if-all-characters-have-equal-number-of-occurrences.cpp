@@ -2,13 +2,16 @@ class Solution {
 public:
     bool areOccurrencesEqual(string s) {
         unordered_map<char, int>hmap;
-        unordered_set<int>ans;
-        for(auto x : s){
+        unordered_set<int>hset;
+        for(auto x: s){
             hmap[x]++;
         }
         for(auto x : hmap){
-            ans.insert(x.second);
+            hset.insert(x.second);
         }
-        return ans.size() == 1;
+        if(hset.size()==1){
+            return true;
+        }
+        return false;
     }
 };
