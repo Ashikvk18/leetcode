@@ -6,7 +6,7 @@ public:
             int y = x[0];
             int z = x[1];
             if(!hmap.contains(y)){
-                hmap[y]==0;
+                hmap[y]=0;
             }
             hmap[z]++;
         }
