@@ -4,7 +4,7 @@ public:
     int window = 2*k+1;
     long sum = 0;
     vector<int>ans(nums.size(),-1);
-    if(k<0 || window>nums.size() ){
+    if(k<0 || window>nums.size()){
         return ans;
     }
     if(k == 0){
