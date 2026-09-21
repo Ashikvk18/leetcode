@@ -3,14 +3,14 @@ public:
     int maxVowels(string s, int k) {
         int l = 0;
         int r = 0;
-        int curr = 0;
         int ans = 0;
+        int curr = 0;
         for(; r < s.size(); r++){
-            if(vowel(s[r])){
+            if(valid(s[r])){
                 curr++;
             }
-            while(r-l+1>k){
-                if(vowel(s[l])){
+            while(r - l + 1 > k){
+                if(valid(s[l])){
                     curr--;
                 }
                 l++;
@@ -19,7 +19,7 @@ public:
         }
         return ans;
     }
-    bool vowel(char c){
+    bool valid(char c){
         return (c == 'a')||(c == 'e')||(c == 'i')||(c == 'o')||(c == 'u');
     }
 };
