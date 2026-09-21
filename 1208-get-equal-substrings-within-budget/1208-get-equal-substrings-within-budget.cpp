@@ -6,12 +6,12 @@ public:
         int cost = 0;
         int ans = 0;
         for(; r < s.size(); r++){
-            cost+=abs(s[r]-t[r]);
-            while(cost>maxCost){
-                cost-=abs(s[l]-t[l]);
+            cost += abs(s[r]-t[r]);
+            while(cost > maxCost){
+                cost -= abs(s[l]-t[l]);
                 l++;
             }
-            ans = max(ans, r-l+1);
+            ans = max(ans, r - l + 1);
         }
         return ans;
     }
