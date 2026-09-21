@@ -3,8 +3,8 @@ public:
     int minSubArrayLen(int target, vector<int>& nums) {
         int l = 0;
         int r = 0;
-        int ans = INT_MAX;
         int curr = 0;
+        int ans = INT_MAX;
         for(; r < nums.size(); r++){
             curr += nums[r];
             while(curr >= target){
@@ -13,7 +13,7 @@ public:
                 l++;
             }
         }
-        if(ans ==  INT_MAX){
+        if( ans == INT_MAX){
             return 0;
         }
         return ans;
