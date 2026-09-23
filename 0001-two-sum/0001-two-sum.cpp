@@ -4,10 +4,12 @@ public:
         unordered_map<int, int> hmap;
         for(int i = 0; i < nums.size(); i++){
             int com = target - nums[i];
-            if(hmap.contains(com)){
+            if(hmap.contains(com))
+            {
                 return {hmap[com], i};
             }
-            else{
+            else
+            {
                 hmap[nums[i]] = i;
             }
         }
