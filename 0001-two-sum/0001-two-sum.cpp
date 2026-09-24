@@ -10,6 +10,6 @@ public:
             }
             hmap[curr] = i;
         }
-        return {};
+        return {-1,-1};
     }
 };
