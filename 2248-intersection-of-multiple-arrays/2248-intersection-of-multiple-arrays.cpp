@@ -1,15 +1,15 @@
 class Solution {
 public:
     vector<int> intersection(vector<vector<int>>& nums) {
-        unordered_map<int, int> hmap;
+        unordered_map<int, int>hset;
         vector<int> ans;
         for(auto x : nums){
             for(auto y : x){
-                hmap[y]++;
+                hset[y]++;
             }
         }
-        for(auto x : hmap){
-            if(x.second ==nums.size()){
+        for(auto x : hset){
+            if(x.second == nums.size()){
                 ans.push_back(x.first);
             }
         }
