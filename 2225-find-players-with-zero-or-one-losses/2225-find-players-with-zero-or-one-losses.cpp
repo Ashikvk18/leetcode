@@ -3,12 +3,10 @@ public:
     vector<vector<int>> findWinners(vector<vector<int>>& matches) {
         unordered_map<int, int>hmap;
         for(auto x : matches){
-            int y = x[0];
-            int z = x[1];
-            if(!hmap.contains(y)){
-                hmap[y] = 0;
+            if(!hmap.contains(x[0])){
+                hmap[x[0]] = 0;
             }
-            hmap[z]++;
+            hmap[x[1]]++;
         }
         vector<int>w;
         vector<int>l;
