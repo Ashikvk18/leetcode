@@ -1,7 +1,11 @@
 class Solution {
 public:
     int maxNumberOfBalloons(string text) {
-        int b = 0; int a = 0; int l = 0; int o = 0; int n = 0;
+        int b = 0;
+        int a = 0;
+        int l = 0;
+        int o = 0;
+        int n = 0;
         for(auto x : text){
             if(x == 'b'){
                 b++;
@@ -17,7 +21,7 @@ public:
         }
         l = l / 2;
         o = o / 2;
-        return min({b,a,l,o,n});
-
+        int ans = min({b,a,l,o,n});
+        return ans;
     }
 };
