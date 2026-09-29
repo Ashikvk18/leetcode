@@ -21,7 +21,7 @@ public:
         }
         l = l / 2;
         o = o / 2;
-        int ans = min({b,a,l,o,n});
-        return ans;
+
+        return min({b,a,l,o,n});
     }
 };
