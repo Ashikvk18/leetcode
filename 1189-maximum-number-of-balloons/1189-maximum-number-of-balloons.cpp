@@ -6,16 +6,22 @@ public:
         int l = 0;
         int o = 0;
         int n = 0;
-        for(auto x : text){
-            if(x == 'b'){
+        for(auto x : text)
+        {
+            if(x == 'b')
+            {
                 b++;
-            } else if(x == 'a'){
+            } else if(x == 'a')
+            {
                 a++;
-            } else if(x == 'l'){
+            } else if(x == 'l')
+            {
                 l++;
-            } else if(x == 'o'){
+            } else if(x == 'o')
+            {
                 o++;
-            } else if(x == 'n'){
+            } else if(x == 'n')
+            {
                 n++;
             }
         }
