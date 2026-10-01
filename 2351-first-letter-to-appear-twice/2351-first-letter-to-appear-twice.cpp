@@ -1,13 +1,13 @@
 class Solution {
 public:
     char repeatedCharacter(string s) {
-        unordered_set<char>hset;
-        for(auto x : s){
-            if(hset.contains(x)){
-                return x;
-            }
-            hset.insert(x);
+       unordered_set<char>set;
+       for(auto x : s){
+        if(set.contains(x)){
+            return x;
         }
-        return ' ';
+        set.insert(x);
+       } 
+       return ' ';
     }
 };
