@@ -2,14 +2,14 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int, int> hmap;
-        for(int i = 0; i < nums.size(); i++){
+        for(int i {0uz}; i < nums.size(); i++){
             int curr = nums[i];
-            int compliment = target- curr;
-            if(hmap.contains(compliment)){
-                return {hmap[compliment], i};
+            int comp = target - curr;
+            if(hmap.contains(comp)){
+                return {hmap[comp], i};
             }
             hmap[curr] = i;
         }
-        return {-1,-1};
+        return {};
     }
 };
