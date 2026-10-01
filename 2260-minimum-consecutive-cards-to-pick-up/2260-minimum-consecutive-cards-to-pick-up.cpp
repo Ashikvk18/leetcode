@@ -1,7 +1,7 @@
 class Solution {
 public:
     int minimumCardPickup(vector<int>& cards) {
-        unordered_map<int, int> hmap;
+        unordered_map<int, int>hmap;
         int ans = INT_MAX;
         for(int i {0uz}; i < cards.size(); i++){
             if(hmap.contains(cards[i])){
@@ -9,6 +9,6 @@ public:
             }
             hmap[cards[i]] = i;
         }
-        return ans == INT_MAX ? -1:ans;
+        return ans == INT_MAX ? -1 : ans;
     }
 };
