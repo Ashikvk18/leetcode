@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> intersection(vector<vector<int>>& nums) {
-        unordered_map<int, int>hmap;
+        unordered_map<int, int> hmap;
         for(auto& x : nums){
             for(auto& y : x){
                 hmap[y]++;
