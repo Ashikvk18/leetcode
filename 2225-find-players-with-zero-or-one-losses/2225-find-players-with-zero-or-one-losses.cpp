@@ -1,10 +1,10 @@
 class Solution {
 public:
     vector<vector<int>> findWinners(vector<vector<int>>& matches) {
-        unordered_map<int, int>hmap;
+        unordered_map<int, int> hmap;
         for(auto& x : matches){
             if(!hmap.contains(x[0])){
-                hmap[x[0]] = 0;
+                hmap[x[0]] == 0;
             }
             hmap[x[1]]++;
         }
