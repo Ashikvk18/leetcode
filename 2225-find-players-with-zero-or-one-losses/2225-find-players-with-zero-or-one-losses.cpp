@@ -5,7 +5,7 @@ public:
         vector<int> w;
         vector<int> l;
         for(auto& x : matches){
-            if(!hmap.contains(hmap[x[0]])){
+            if(!hmap.contains(x[0])){
                 hmap[x[0]] = 0;
             }
             hmap[x[1]]++;
