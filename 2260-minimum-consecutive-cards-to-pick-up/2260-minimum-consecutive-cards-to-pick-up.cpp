@@ -5,7 +5,7 @@ public:
         int ans = INT_MAX;
         for(int i {0uz}; i < cards.size(); i++){
             if(hmap.contains(cards[i])){
-                ans = min(ans, i - hmap[cards[i]]);
+                ans = min(ans, i - hmap[cards[i]] + 1);
             }
             hmap[cards[i]] = i;
         }
