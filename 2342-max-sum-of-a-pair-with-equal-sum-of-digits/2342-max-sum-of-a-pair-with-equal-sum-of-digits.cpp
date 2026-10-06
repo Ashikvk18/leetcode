@@ -4,7 +4,7 @@ public:
         unordered_map<int, int>hmap;
         int ans = -1;
         for(auto& x : nums){
-            int d = total(x);
+            int d = nt(x);
             if(hmap.contains(d)){
                 ans = max(ans, x + hmap[d]);
             }
@@ -12,11 +12,11 @@ public:
         }
         return ans;
     }
-    int total(int num){
+    int nt(int n){
         int sum = 0;
-        while(num > 0){
-            sum += num % 10;
-            num = num / 10;
+        while(n > 0){
+            sum += n % 10;
+            n /= 10;
         }
         return sum;
     }
