@@ -13,8 +13,9 @@ public:
             }
             if(hmap.contains(count)){
                 ans = max(ans, i - hmap[count]);
+            } else{
+                hmap[count] = i;
             }
-            hmap[count] = i;
         }
         return ans;
     }
