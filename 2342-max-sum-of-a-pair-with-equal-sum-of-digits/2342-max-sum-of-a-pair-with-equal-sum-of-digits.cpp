@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int t(int n){
+    int dsum(int n){
         int sum = 0;
         while(n > 0){
             sum += n % 10;
@@ -9,10 +9,10 @@ public:
         return sum;
     }
     int maximumSum(vector<int>& nums) {
-        unordered_map<int, int>hmap;
+        unordered_map<int, int> hmap;
         int ans = -1;
         for(auto& x : nums){
-            int d = t(x);
+            int d = dsum(x);
             if(hmap.contains(d)){
                 ans = max(ans, x + hmap[d]);
             }
