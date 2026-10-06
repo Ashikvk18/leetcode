@@ -2,8 +2,8 @@ class Solution {
 public:
     vector<vector<int>> findWinners(vector<vector<int>>& matches) {
         unordered_map<int, int>hmap;
-        vector<int> w;
-        vector<int> l;
+        vector<int>w;
+        vector<int>l;
         for(auto& x : matches){
             if(!hmap.contains(x[0])){
                 hmap[x[0]] = 0;
