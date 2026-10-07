@@ -1,18 +1,35 @@
 class Solution {
 public:
+    string convertToKey(vector<int>& arr) {
+        string s = "";
+        for (int num: arr) {
+            s += to_string(num) + ",";
+        }
+        
+        return s;
+    }
+    
     int equalPairs(vector<vector<int>>& grid) {
-        map<vector<int>, int>map;
-        int ans = 0;
-        for(auto& x : grid){
-            map[x]++;
+        unordered_map<string, int> dic;
+        for (vector<int>& row: grid) {
+            dic[convertToKey(row)]++;
         }
-        for(int j = 0; j < grid[0].size(); j++){
-            vector<int>a;
-            for(int i = 0; i < grid.size(); i++){
-                a.push_back(grid[i][j]);
+
+        unordered_map<string, int> dic2;
+        for (int col = 0; col < grid[0].size(); col++) {
+            vector<int> currentCol;
+            for (int row = 0; row < grid.size(); row++) {
+                currentCol.push_back(grid[row][col]);
             }
-            ans += map[a];
+            
+            dic2[convertToKey(currentCol)]++;
         }
+        
+        int ans = 0;
+        for (auto [arr, val]: dic) {
+            ans += val * dic2[arr];
+        }
+        
         return ans;
     }
 };
