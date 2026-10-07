@@ -6,10 +6,10 @@ public:
         for(auto& x : grid){
             map[x]++;
         }
-        for(auto i {0uz}; i < grid[0].size(); i++){
-            vector<int>v;
-            for(auto j {0uz}; j < grid.size(); j++){
-                v.push_back(grid[j][i]);
+        for(auto j {0uz}; j < grid[0].size(); j++){
+            vector<int> v;
+            for(auto i {0uz}; i < grid.size(); i++){
+                v.push_back(grid[i][j]);
             }
             ans += map[v];
         }
