@@ -7,11 +7,11 @@ public:
             map[x]++;
         }
         for(auto j {0uz}; j < grid[0].size(); j++){
-            vector<int> v;
+            vector<int> vec;
             for(auto i {0uz}; i < grid.size(); i++){
-                v.push_back(grid[i][j]);
+                vec.push_back(grid[i][j]);
             }
-            ans += map[v];
+            ans += map[vec];
         }
         return ans;
     }
