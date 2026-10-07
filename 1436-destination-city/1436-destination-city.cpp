@@ -1,16 +1,16 @@
 class Solution {
 public:
     string destCity(vector<vector<string>>& paths) {
-        set<string>set;
+        unordered_set<string>hset;
         for(auto& x : paths){
-            set.insert(x[1]);
+            hset.insert(x[1]);
         }
         for(auto& x : paths){
-            if(set.contains(x[0])){
-                set.erase(x[0]);
+            if(hset.contains(x[0])){
+                hset.erase(x[0]);
             }
         }
-        for(auto& x : set){
+        for(auto& x : hset){
             return x;
         }
         return "";
