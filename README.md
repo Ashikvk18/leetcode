@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2260-minimum-consecutive-cards-to-pick-up](https://github.com/Ashikvk18/leetcode/tree/master/2260-minimum-consecutive-cards-to-pick-up) |
 | [2270-number-of-ways-to-split-array](https://github.com/Ashikvk18/leetcode/tree/master/2270-number-of-ways-to-split-array) |
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Ashikvk18/leetcode/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2352-equal-row-and-column-pairs](https://github.com/Ashikvk18/leetcode/tree/master/2352-equal-row-and-column-pairs) |
 | [2540-minimum-common-value](https://github.com/Ashikvk18/leetcode/tree/master/2540-minimum-common-value) |
 ## Hash Table
 |  |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2287-rearrange-characters-to-make-target-string](https://github.com/Ashikvk18/leetcode/tree/master/2287-rearrange-characters-to-make-target-string) |
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Ashikvk18/leetcode/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2351-first-letter-to-appear-twice](https://github.com/Ashikvk18/leetcode/tree/master/2351-first-letter-to-appear-twice) |
+| [2352-equal-row-and-column-pairs](https://github.com/Ashikvk18/leetcode/tree/master/2352-equal-row-and-column-pairs) |
 | [2540-minimum-common-value](https://github.com/Ashikvk18/leetcode/tree/master/2540-minimum-common-value) |
 ## Sliding Window
 |  |
@@ -150,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/Ashikvk18/leetcode/tree/master/0036-valid-sudoku) |
+| [2352-equal-row-and-column-pairs](https://github.com/Ashikvk18/leetcode/tree/master/2352-equal-row-and-column-pairs) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -199,4 +202,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0268-missing-number](https://github.com/Ashikvk18/leetcode/tree/master/0268-missing-number) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Ashikvk18/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
+## Simulation
+|  |
+| ------- |
+| [2352-equal-row-and-column-pairs](https://github.com/Ashikvk18/leetcode/tree/master/2352-equal-row-and-column-pairs) |
 <!---LeetCode Topics End-->
