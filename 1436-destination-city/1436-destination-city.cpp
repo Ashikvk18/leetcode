@@ -5,13 +5,13 @@ public:
         for(auto& x : paths){
             hset.insert(x[1]);
         }
-        for(auto& x : paths){
-            if(hset.contains(x[0])){
-                hset.erase(x[0]);
+        for(auto& y : paths){
+            if(hset.contains(y[0])){
+                hset.erase(y[0]);
             }
         }
-        for(auto& x : hset){
-            return x;
+        for(auto& z : hset){
+            return z;
         }
         return "";
     }
