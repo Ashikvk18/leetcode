@@ -6,12 +6,12 @@ public:
         for(auto& x : grid){
             map[x]++;
         }
-        for(auto j {0uz}; j < grid[0].size(); j++){
-            vector<int> vec;
-            for(auto i {0uz}; i < grid.size(); i++){
-                vec.push_back(grid[i][j]);
+        for(int j = 0; j < grid[0].size(); j++){
+            vector<int>a;
+            for(int i = 0; i < grid.size(); i++){
+                a.push_back(grid[i][j]);
             }
-            ans += map[vec];
+            ans += map[a];
         }
         return ans;
     }
