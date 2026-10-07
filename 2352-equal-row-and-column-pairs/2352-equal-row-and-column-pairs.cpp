@@ -6,7 +6,7 @@ public:
         for(int i = 0; i < grid.size(); i++){
             hmap[grid[i]]++;
         }
-        for(int j = 0; j < grid.size(); j++){
+        for(int j = 0; j < grid[0].size(); j++){
             vector<int> v;
             for(int i = 0; i < grid.size(); i++){
                 v.push_back(grid[i][j]);
