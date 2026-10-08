@@ -5,10 +5,10 @@ public:
         unordered_set<string>hset;
         hset.insert("0,0");
         for(auto& c : path){
-            if(c == 'N') y++;
-            else if(c == 'S') y--;
-            else if(c == 'W') x++;
-            else x--;
+            if(c == 'N') x++;
+            else if(c == 'S') x--;
+            else if(c == 'W') y++;
+            else y--;
 
             string st = to_string(x) + ',' + to_string(y);
             if(hset.contains(st)) return true;
