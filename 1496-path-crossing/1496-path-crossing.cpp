@@ -9,6 +9,7 @@ public:
             else if(c == 'S') y--;
             else if(c == 'E') x++;
             else x--;
+
             string st = to_string(x) + ',' + to_string(y);
             if(hset.contains(st)) return true;
             hset.insert(st);
