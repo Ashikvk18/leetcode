@@ -7,7 +7,7 @@ public:
         for(auto& c : path){
             if(c == 'N') y++;
             else if(c == 'S') y--;
-            else if(c == 'E') x++;
+            else if(c == 'W') x++;
             else x--;
 
             string st = to_string(x) + ',' + to_string(y);
