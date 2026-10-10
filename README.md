@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Ashikvk18/leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Ashikvk18/leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Ashikvk18/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0383-ransom-note](https://github.com/Ashikvk18/leetcode/tree/master/0383-ransom-note) |
 | [0525-contiguous-array](https://github.com/Ashikvk18/leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Ashikvk18/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1189-maximum-number-of-balloons](https://github.com/Ashikvk18/leetcode/tree/master/1189-maximum-number-of-balloons) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Ashikvk18/leetcode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Ashikvk18/leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Ashikvk18/leetcode/tree/master/0344-reverse-string) |
+| [0383-ransom-note](https://github.com/Ashikvk18/leetcode/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/Ashikvk18/leetcode/tree/master/0392-is-subsequence) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/Ashikvk18/leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0917-reverse-only-letters](https://github.com/Ashikvk18/leetcode/tree/master/0917-reverse-only-letters) |
@@ -175,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Ashikvk18/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0383-ransom-note](https://github.com/Ashikvk18/leetcode/tree/master/0383-ransom-note) |
 | [1189-maximum-number-of-balloons](https://github.com/Ashikvk18/leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1941-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/Ashikvk18/leetcode/tree/master/1941-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/Ashikvk18/leetcode/tree/master/2225-find-players-with-zero-or-one-losses) |
