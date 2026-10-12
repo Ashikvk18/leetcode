@@ -1,13 +1,13 @@
 class Solution {
 public:
     int numJewelsInStones(string jewels, string stones) {
-        unordered_set<char> set;
-        int ans = 0;
+        unordered_set<char>hset;
+        int ans = 0;\
         for(auto& x : jewels){
-            set.insert(x);
+            hset.insert(x);
         }
         for(auto& x : stones){
-            if(set.contains(x)){
+            if(hset.contains(x)){
                 ans++;
             }
         }
