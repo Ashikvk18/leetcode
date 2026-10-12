@@ -1,18 +1,14 @@
 class Solution {
 public:
     int numJewelsInStones(string jewels, string stones) {
-        unordered_map<char, int> h1;
-        unordered_map<char, int> h2;
+        unordered_set<char>set;
         int ans = 0;
         for(auto& x : jewels){
-            h1[x]++;
+            set.insert(x);
         }
         for(auto& x : stones){
-            h2[x]++;
-        }
-        for(auto& x : h2){
-            if(h1.contains(x.first)){
-                ans += x.second;
+            if(set.contains(x)){
+                ans++;
             }
         }
         return ans;
