@@ -7,7 +7,7 @@ public:
             if(hmap[s[j]] > 0){
                 i = max(hmap[s[j]], i);
             }
-            hmap[s[j]] = j + 1;
+            hmap[s[j]] = j+1;
             ans = max(ans, j - i + 1);
         }
         return ans;
