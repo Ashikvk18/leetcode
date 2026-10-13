@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Ashikvk18/leetcode/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2352-equal-row-and-column-pairs](https://github.com/Ashikvk18/leetcode/tree/master/2352-equal-row-and-column-pairs) |
 | [2540-minimum-common-value](https://github.com/Ashikvk18/leetcode/tree/master/2540-minimum-common-value) |
+| [3005-count-elements-with-maximum-frequency](https://github.com/Ashikvk18/leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
 ## Hash Table
 |  |
 | ------- |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2351-first-letter-to-appear-twice](https://github.com/Ashikvk18/leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [2352-equal-row-and-column-pairs](https://github.com/Ashikvk18/leetcode/tree/master/2352-equal-row-and-column-pairs) |
 | [2540-minimum-common-value](https://github.com/Ashikvk18/leetcode/tree/master/2540-minimum-common-value) |
+| [3005-count-elements-with-maximum-frequency](https://github.com/Ashikvk18/leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
 ## Sliding Window
 |  |
 | ------- |
@@ -192,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2248-intersection-of-multiple-arrays](https://github.com/Ashikvk18/leetcode/tree/master/2248-intersection-of-multiple-arrays) |
 | [2287-rearrange-characters-to-make-target-string](https://github.com/Ashikvk18/leetcode/tree/master/2287-rearrange-characters-to-make-target-string) |
 | [2351-first-letter-to-appear-twice](https://github.com/Ashikvk18/leetcode/tree/master/2351-first-letter-to-appear-twice) |
+| [3005-count-elements-with-maximum-frequency](https://github.com/Ashikvk18/leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
 ## Quickselect
 |  |
 | ------- |
