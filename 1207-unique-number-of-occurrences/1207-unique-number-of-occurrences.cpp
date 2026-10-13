@@ -1,8 +1,8 @@
 class Solution {
 public:
     bool uniqueOccurrences(vector<int>& arr) {
-        unordered_map<int, int>hmap;
         unordered_set<int>hset;
+        unordered_map<int, int>hmap;
         for(auto& x : arr){
             hmap[x]++;
         }
