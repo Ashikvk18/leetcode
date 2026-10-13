@@ -4,7 +4,7 @@ public:
         unordered_map<char, int>hmap;
         int ans = 0;
         for(int i = 0, j = 0; j < s.size(); j++){
-            if(hmap[s[j]] > 0){
+            if(hmap.contains(s[j])){
                 i = max(hmap[s[j]], i);
             }
             hmap[s[j]] = j + 1;
