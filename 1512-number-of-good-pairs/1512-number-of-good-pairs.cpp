@@ -7,7 +7,7 @@ public:
             hmap[x]++;
         }
         for(auto& x : hmap){
-            total += x.second*(x.second-1)/2;
+            total += x.second * (x.second - 1) / 2;
         }
         return total;
     }
