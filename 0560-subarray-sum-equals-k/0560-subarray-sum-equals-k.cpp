@@ -1,8 +1,7 @@
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
-        int ans = 0;
-        int curr = 0;
+        int ans = 0, curr = 0;
         unordered_map<int, int>hmap;
         hmap[0] = 1;
         for(auto& x : nums){
