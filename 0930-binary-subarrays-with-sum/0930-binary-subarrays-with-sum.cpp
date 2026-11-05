@@ -1,5 +1,8 @@
 class Solution {
 public:
+    int numSubarraysWithSum(vector<int>& nums, int goal) {
+        return Max(nums, goal) - Max(nums, goal - 1);
+    }
     int Max(vector<int>& nums, int goal){
         if(goal < 0) return 0;
         int i = 0, j = 0, ans = 0, sum = 0;
@@ -13,8 +16,5 @@ public:
             j++;
         }
         return ans;
-    }
-    int numSubarraysWithSum(vector<int>& nums, int goal) {
-        return Max(nums, goal) - Max(nums, goal - 1);
     }
 };
